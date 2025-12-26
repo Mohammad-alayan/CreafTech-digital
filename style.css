@@ -1,20 +1,28 @@
 #img{
-   width: 300px; /* زوّد شوي */
-  display: flex; /* لضمان التمركز */
+   width: 280px; /* زوّد شوي */
+  display: block; /* لضمان التمركز */
   border-radius:50%; /* إذا بتحب */
   transition: 0.4s ease;
   padding: 0 !important;
-      box-shadow: 0 0 25px 0px #00b3ff;
+  justify-content: center !important;
 
+      box-shadow: 1px 1px 16px 1px #00b3ff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif !important;
 }
 
-body{
-
-  font-family: 'Inter', sans-serif !important;
-
+/* للنصوص */
+body, p, a, li {
+    font-family: 'Inter', sans-serif !important;
 }
+#CRF{
+    color: #00B3FF;
+}
+
 *{
       font-family: 'Inter', sans-serif !important;
+    
  
 }
 
@@ -23,20 +31,18 @@ body{
     margin-top: 30px;
   font-size: 1rem;
   line-height: 1.6;
- margin-left: 20px;
   max-width: 480px;
 
 }
-.fst{
-}
-.text{  max-width: 520px;
-  border-left: 2px solid #00B3FF;
-padding-left: 3%;
+
+.text{  
+padding-left: 1.5%;
+
 }
 
 #greett{
     color: #CBD5E1;
- font-size: 1.7rem;
+ font-size: 2.1rem;
   line-height: 1.3;
 
 
@@ -96,7 +102,7 @@ transform: translate(100px);
     font-family: "Playfair Display", serif;
 
 }
-@media screen and (max-width:930px) {
+@media screen and (max-width:1000px) {
     #co{
         padding-top: 0px;
         
@@ -162,7 +168,7 @@ margin-top: 0px !important;
 #navv{
 padding: 0;
 font-size: 28px;
-color: white;
+color: #CBD5E1;
     margin-bottom: -60px;
  padding-top:20px ;   
  margin-left: 3%;
@@ -187,14 +193,14 @@ margin-left: 5vw;
     color: #2b3035;
     background-color: #00b3ff;
     padding: 8px;
-    border-radius: 20px;
+    border-radius: 16px;
     transition: 0.4s;
 }
 #a{
     text-decoration: none;
     font-size: 24px;
 
-color: white;
+color: #CBD5E1;
 }
 #co{
     animation: anime 1.2s  linear 1;
